@@ -1,8 +1,8 @@
 algoritmo "semnome"
 var
-   contador : inteiro
+   contador, valor : inteiro
 inicio
-      contador <- 10
+      contador <- 0
       Enquanto (contador >=10)e (contador <=20)faca
                EscrevaL(contador)
                contador <- contador + 2
