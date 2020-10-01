@@ -3,7 +3,8 @@ var
    contador, N, R: inteiro
 inicio
       contador <- 1
-      N <- 7
+      Escreva ("Qual número você deseja consultar a tabuada? ")
+      Leia (N)
       Repita
       R <- N * contador
       EscrevaL (N, " X", contador, "=", R)
